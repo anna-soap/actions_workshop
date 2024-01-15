@@ -1,3 +1,7 @@
+name: linter
+
+on: [push]
+
 jobs:
   run_python_linter:
     runs-on: ubuntu-latest
